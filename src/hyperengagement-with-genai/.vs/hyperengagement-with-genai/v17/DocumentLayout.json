@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{95A0122E-7B41-448B-BE20-32904243E3CE}|hyperpersonalisation-with-agents\\hyperpersonalisation-with-agents.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{95A0122E-7B41-448B-BE20-32904243E3CE}|hyperpersonalisation-with-agents\\hyperpersonalisation-with-agents.csproj|solutionrelative:hyperpersonalisation-with-agents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -28,11 +32,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
+              "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\Program.cs",
+              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
+              "RelativeToolTip": "hyperpersonalisation-with-planner\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-20T19:59:02.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\Program.cs",
               "RelativeDocumentMoniker": "hyperpersonalisation-with-agents\\Program.cs",
               "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\Program.cs",
               "RelativeToolTip": "hyperpersonalisation-with-agents\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAwEcAAABKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-20T04:08:08.996Z",
               "EditorCaption": ""

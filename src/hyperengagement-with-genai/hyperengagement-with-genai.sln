@@ -5,7 +5,13 @@ VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hyperpersonalisation-with-agents", "hyperpersonalisation-with-agents\hyperpersonalisation-with-agents.csproj", "{95A0122E-7B41-448B-BE20-32904243E3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hyperpersonalisation-with-planner", "hyperpersonalisation-with-planner\hyperpersonalisation-with-planner.csproj", "{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hyperpersonalisation-with-planner", "hyperpersonalisation-with-planner\hyperpersonalisation-with-planner.csproj", "{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "prompts", "prompts", "{8927B455-9526-49DA-8FA4-516B782F721A}"
+	ProjectSection(SolutionItems) = preProject
+		prompts\contoso-books-podcast.txt = prompts\contoso-books-podcast.txt
+		create-test-data.txt = create-test-data.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -58,17 +58,21 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.2.0, )"
             },
             "Microsoft.SemanticKernel.Abstractions": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.2.0, )"
             },
             "Microsoft.SemanticKernel.Connectors.OpenAI": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.2.0, )"
             },
             "Microsoft.SemanticKernel.Experimental.Agents": {
               "target": "Package",
@@ -77,6 +81,22 @@
             "Microsoft.SemanticKernel.Experimental.Assistants": {
               "target": "Package",
               "version": "[1.0.0-rc4, )"
+            },
+            "Microsoft.SemanticKernel.Planners.Core": {
+              "target": "Package",
+              "version": "[1.0.0-beta8, )"
+            },
+            "Microsoft.SemanticKernel.Planners.Handlebars": {
+              "target": "Package",
+              "version": "[1.2.0-preview, )"
+            },
+            "Microsoft.SemanticKernel.Planners.OpenAI": {
+              "target": "Package",
+              "version": "[1.2.0-preview, )"
+            },
+            "Microsoft.SemanticKernel.Plugins.Core": {
+              "target": "Package",
+              "version": "[1.2.0-alpha, )"
             }
           },
           "imports": [

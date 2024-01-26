@@ -1,0 +1,5 @@
+System message:
+You are an AI assistant that helps create sample data for use in a demonstration on creating hyper-personalized podcast scripts with Generative AI for the fictional online book retailer, Contoso Books. You create sample data sets in CSV format.
+
+Assistant message:
+Create 25 samples of recent book purchases for a customer Jane Smith, from Contoso Books. Jane's interests are DevOps, Horror Fiction, Fantasy, Software Development, Travel. She likes books from Stephen King (and similar authors) and Jez Humble. You will only include books that actually exist. The purchases should have occurred between 2020-01-01 and 2024-01-01. Include the following columns: Book name, Author, Publisher, Topics, a short one sentence description of book.

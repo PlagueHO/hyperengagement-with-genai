@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95A0122E-7B41-448B-BE20-32904243E3CE}|hyperpersonalisation-with-agents\\hyperpersonalisation-with-agents.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95A0122E-7B41-448B-BE20-32904243E3CE}|hyperpersonalisation-with-agents\\hyperpersonalisation-with-agents.csproj|solutionrelative:hyperpersonalisation-with-agents\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8927B455-9526-49DA-8FA4-516B782F721A}|prompts{8927B455-9526-49DA-8FA4-516B782F721A}|C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\prompts\\contoso-books-podcast.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8927B455-9526-49DA-8FA4-516B782F721A}|prompts{8927B455-9526-49DA-8FA4-516B782F721A}|solutionrelative:prompts\\contoso-books-podcast.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8927B455-9526-49DA-8FA4-516B782F721A}|prompts{8927B455-9526-49DA-8FA4-516B782F721A}|C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\create-test-data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8927B455-9526-49DA-8FA4-516B782F721A}|prompts{8927B455-9526-49DA-8FA4-516B782F721A}|solutionrelative:create-test-data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +38,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\appsettings.json",
+              "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\appsettings.json",
+              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\appsettings.json",
+              "RelativeToolTip": "hyperpersonalisation-with-planner\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-01-26T03:46:13.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
               "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\Program.cs",
               "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
               "RelativeToolTip": "hyperpersonalisation-with-planner\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAArwCcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-20T19:59:02.569Z",
+              "WhenOpened": "2024-01-26T03:41:29.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\Program.cs",
-              "RelativeDocumentMoniker": "hyperpersonalisation-with-agents\\Program.cs",
-              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-agents\\Program.cs",
-              "RelativeToolTip": "hyperpersonalisation-with-agents\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-20T04:08:08.996Z",
+              "DocumentIndex": 3,
+              "Title": "create-test-data.txt",
+              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\create-test-data.txt",
+              "RelativeDocumentMoniker": "create-test-data.txt",
+              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\create-test-data.txt",
+              "RelativeToolTip": "create-test-data.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-01-24T00:46:32.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "contoso-books-podcast.txt",
+              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\prompts\\contoso-books-podcast.txt",
+              "RelativeDocumentMoniker": "prompts\\contoso-books-podcast.txt",
+              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\prompts\\contoso-books-podcast.txt",
+              "RelativeToolTip": "prompts\\contoso-books-podcast.txt",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-01-24T00:09:38.898Z",
               "EditorCaption": ""
             }
           ]

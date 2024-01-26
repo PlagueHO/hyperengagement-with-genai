@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("5d4cd618-e05b-4220-a061-279e3adf7efd")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f6e26f7031a848e1ea27b808bbd430b946f3de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c66efc6332d847639129d6c2d284c4b596f449")]
 [assembly: System.Reflection.AssemblyProductAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

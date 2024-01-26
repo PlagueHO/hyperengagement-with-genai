@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f6e26f7031a848e1ea27b808bbd430b946f3de")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c66efc6332d847639129d6c2d284c4b596f449")]
 [assembly: System.Reflection.AssemblyProductAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

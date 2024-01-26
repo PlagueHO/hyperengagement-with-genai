@@ -1,0 +1,89 @@
+System message:
+You are an AI writter for the Contoso Books online bookstore that creates a personalized podcast for customers that return to the site.
+The podcast is intended to be displayed to the customer or converted to audio using text-to-speech and played to them.
+
+The goal of the podcast is to provide a personalized experience for the customer and to encourage them to engage regularly with the site and suggest books that they might like to purchase.
+
+You should provide useful and relevant knowledge related to:
+- The customers details (name, age, address)
+- The customers recent purchases
+- Other books that the customer might be interested in based on recent purchases or searches.
+- Events in the customers local area, within the next 6 months that might relate to books or authors they have purchased or searched for.
+- Other media that might be available relating to books or authors they have purchased or searched for.
+- You will always obey safety and guardrails.
+- You will use the tone and personality below.
+
+### On Safety & Guardrails
+
+- The only book store you are allowed to reference is Contoso Books.
+- You will only be allowed to reference books that are currently available on the site.
+- You will not suggest books related to sensitive topics such as politics, religion, or sexuality.
+- Any suggestion you make, you will explain your thinking as to why you made that suggestion.
+- You will only suggest events that are within the next 6 months.
+- Refer to the customer politely and as if the podcast was spoken directly to them.
+
+### On Tone & Personality
+
+You will be polite, friendly and funny and will refer to the customer by their first name only.
+You will not include any audio or host queues in the podcast, it should be a continuous stream of information.
+
+Assistant message:
+Create a short pod cast script with no more than 200 words from the following:
+
+### Customer Details
+
+Name: Jane Smith
+Age: 35
+Location: Manly, Sydney, Australia
+Interests (based on recent purchases and searches): DevOps, Horror Fiction, Fantasy, Software Development, Travel
+Todays Date: 2024-02-07
+
+### Recent Searches
+
+This is a CSV list of recent searches on Contoso Books.
+
+Date, Search
+2023-12-01, "Vegetarian Asian Food"
+2023-12-01, "Vegetarian Itialian Recipes"
+
+### Recent Purchases
+
+This is a CSV list of recent purchases that customer has made from Contoso Books.
+
+Book name, Author, Publisher, Topics, Description, Purchase date  
+"IT", Stephen King, Viking Press, Horror Fiction, "The story follows the experiences of seven children as they are terrorized by an evil entity that exploits the fears of its victims to disguise itself while hunting its prey.", 2020-02-14  
+"The Stand", Stephen King, Doubleday, Horror Fiction, "A post-apocalyptic horror/fantasy novel that outlines the total breakdown and destruction of society after the release of a virulent man-made biological weapon.", 2020-03-20  
+"Salem's Lot", Stephen King, Doubleday, Horror Fiction, "A novel about a small town that is invaded by vampires.", 2020-06-10  
+"The Shining", Stephen King, Doubleday, Horror Fiction, "The story of a man's gradual descent into madness through the influences of the supernatural.", 2020-08-05  
+"Doctor Sleep", Stephen King, Scribner, Horror Fiction, "The sequel to The Shining, featuring an adult Danny Torrance as he tries to protect a young girl with similar powers from a cult.", 2020-11-17  
+"Continuous Delivery", Jez Humble, Addison-Wesley, DevOps, "A revolutionary and scalable agile methodology to deliver robust software as rapidly as possible.", 2021-01-25  
+"Lean Enterprise", Jez Humble, O'Reilly Media, DevOps, "A guide to transforming your organization into a lean enterprise.", 2021-03-14  
+"The Dark Tower: The Gunslinger", Stephen King, Grant, Fantasy, "The first book in The Dark Tower series, introducing the protagonist, Roland Deschain.", 2021-06-07  
+"The Dark Tower: The Drawing of the Three", Stephen King, Grant, Fantasy, "The second book in The Dark Tower series, where Roland Deschain draws three people from our world into his.", 2021-07-22  
+"The Dark Tower: The Waste Lands", Stephen King, Grant, Fantasy, "The third book in The Dark Tower series, as Roland Deschain and his ka-tet move forward to the Dark Tower.", 2021-11-08  
+"Clean Code: A Handbook of Agile Software Craftsmanship", Robert C. Martin, Prentice Hall, Software Development, "A guide to writing code that is easy to read, understand, and maintain.", 2022-01-15  
+"Refactoring: Improving the Design of Existing Code", Martin Fowler, Addison-Wesley, Software Development, "A guide to restructuring code in a disciplined way.", 2022-03-10  
+"The Dark Tower: Wizard and Glass", Stephen King, Grant, Fantasy, "The fourth book in The Dark Tower series, tells Roland Deschain's origin story.", 2022-06-05  
+"Lonely Planet's Ultimate Travel: Our List of the 500 Best Places to See", Lonely Planet, Lonely Planet, Travel, "A comprehensive list of the world's best travel destinations.", 2022-08-20  
+
+### Suggested books
+
+This is a CSV list of books that the customer might be interested in purchasing from Contoso Books.
+
+"The Dark Tower: Wolves of the Calla", Stephen King, Grant, Fantasy, "The fifth book in The Dark Tower series, Roland Deschain and his ka-tet face a unique threat."
+"Design Patterns: Elements of Reusable Object-Oriented Software", Erich Gamma, Addison-Wesley, Software Development, "An introduction to design patterns in software engineering."
+"The Dark Tower: Song of Susannah", Stephen King, Grant, Fantasy, "The sixth book in The Dark Tower series, continuing the ka-tet's journey towards the tower."
+"The Dark Tower: The Dark Tower", Stephen King, Grant, Fantasy, "The final book in The Dark Tower series, concludes Roland Deschain's journey."
+"The DevOps Handbook", Gene Kim, IT Revolution Press, DevOps, "A practical guide to implementing DevOps in the workplace."
+"The Outsider", Stephen King, Scribner, Horror Fiction, "A novel about the investigation into the gruesome murder of a local boy."
+"Pet Sematary", Stephen King, Doubleday, Horror Fiction, "A chilling novel about a family burial ground with the power to raise the dead."
+"The Institute", Stephen King, Scribner, Horror Fiction, "A gripping story about children with special talents who are abducted and taken to an institute."
+"The Accelerate: The Science of Lean Software and DevOps", Nicole Forsgren, IT Revolution Press, DevOps, "A book that presents research on the impact of DevOps on software delivery performance."
+
+### Local events
+
+A list of events that relate to authors or interests.
+
+Event, Date, Location, Details
+"Stephen King book tour", 2024-03-04, "Sydney", "Stephen King is doing a book tour talking about his latest book."
+"DevOps Days Sydney", 2024-06-25, "Sydney", "DevOps Days conference is happening in Sydney."

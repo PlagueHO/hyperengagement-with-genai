@@ -43,7 +43,8 @@ The podcast should be no more than 2 minutes long and should be a continuous str
 The customer's email address is: bookfan99@example.com
 
 You should provide useful and relevant knowledge on:
-- Books that the customer might be interested in based on recent purchases or searches.
+- Books that the customer might be interested in based on recent purchases.
+- Books that the customer might be interested in based on recent searches.
 - Events in the customers local area, within the next 6 months that might relate to books or authors they have purchased or searched for.
 - Other media that might be available relating to books or authors they have purchased or searched for (for example, TV shows).
 - Consider the customers age, location and interests when making suggestions.

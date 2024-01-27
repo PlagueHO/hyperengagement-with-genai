@@ -59,4 +59,53 @@ Book name, Author, Publisher, Topics, Description, Purchase date
 ""Lonely Planet's Ultimate Travel: Our List of the 500 Best Places to See"", Lonely Planet, Lonely Planet, Travel, ""A comprehensive list of the world's best travel destinations."", 2022-08-20  
 ";
     }
+
+    /// <summary>
+    /// Plugin to get the customers recent searches from Contoso Books
+    /// </summary>
+    /// <param name="emailAddress">The email address of the customer whose recent searches should be returned</param>
+    /// <param name="logger">The logger</param>
+    /// <returns>Current date and time in UTC format</returns>
+    [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing the customers recent searches from Contoso Books")]
+    public string GetCustomerRecentSearches(
+        [Description("The email address of the customer whose recent searches should be returned.")] string emailAddress,
+        ILogger? logger = null)
+    {
+        logger?.LogInformation("GetCustomerRecentSearches: returning the customer recent searches for {0}", emailAddress);
+
+        // In a real application this would be looked up using an API or database request
+        return @"
+Date, Search
+2023-12-01, ""Vegetarian Asian Food""
+2023-12-01, ""Vegetarian Itialian Recipes""
+";
+    }
+
+    /// <summary>
+    /// Plugin to get book recommendations for a customer of Contoso Books which will be based on interests, available books, recent purchases and recent searches
+    /// </summary>
+    /// <param name="emailAddress">The email address of the customer whose book recommendations</param>
+    /// <param name="logger">The logger</param>
+    /// <returns>Current date and time in UTC format</returns>
+    [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing purchase recommendations from Contoso Books")]
+    public string GetCustomerSuggestedBooks(
+        [Description("The email address of the customer whose book recommendations should be returned.")] string emailAddress,
+        ILogger? logger = null)
+    {
+        logger?.LogInformation("GetCustomerSuggestedBooks: returning the book recommendations for {0}", emailAddress);
+
+        // In a real application this would be looked up using an API or database request
+        return @"
+Book name, Author, Publisher, Topics, Description
+""The Dark Tower: Wolves of the Calla"", Stephen King, Grant, Fantasy, ""The fifth book in The Dark Tower series, Roland Deschain and his ka-tet face a unique threat.""
+""Design Patterns: Elements of Reusable Object-Oriented Software"", Erich Gamma, Addison-Wesley, Software Development, ""An introduction to design patterns in software engineering.""
+""The Dark Tower: Song of Susannah"", Stephen King, Grant, Fantasy, ""The sixth book in The Dark Tower series, continuing the ka-tet's journey towards the tower.""
+""The Dark Tower: The Dark Tower"", Stephen King, Grant, Fantasy, ""The final book in The Dark Tower series, concludes Roland Deschain's journey.""
+""The DevOps Handbook"", Gene Kim, IT Revolution Press, DevOps, ""A practical guide to implementing DevOps in the workplace.""
+""The Outsider"", Stephen King, Scribner, Horror Fiction, ""A novel about the investigation into the gruesome murder of a local boy.""
+""Pet Sematary"", Stephen King, Doubleday, Horror Fiction, ""A chilling novel about a family burial ground with the power to raise the dead.""
+""The Institute"", Stephen King, Scribner, Horror Fiction, ""A gripping story about children with special talents who are abducted and taken to an institute.""
+""The Accelerate: The Science of Lean Software and DevOps"", Nicole Forsgren, IT Revolution Press, DevOps, ""A book that presents research on the impact of DevOps on software delivery performance.""
+";
+    }
 }

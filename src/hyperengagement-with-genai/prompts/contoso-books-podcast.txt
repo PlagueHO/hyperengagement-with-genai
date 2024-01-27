@@ -71,6 +71,7 @@ Book name, Author, Publisher, Topics, Description, Purchase date
 
 This is a CSV list of books that the customer might be interested in purchasing from Contoso Books.
 
+Book name, Author, Publisher, Topics, Description
 "The Dark Tower: Wolves of the Calla", Stephen King, Grant, Fantasy, "The fifth book in The Dark Tower series, Roland Deschain and his ka-tet face a unique threat."
 "Design Patterns: Elements of Reusable Object-Oriented Software", Erich Gamma, Addison-Wesley, Software Development, "An introduction to design patterns in software engineering."
 "The Dark Tower: Song of Susannah", Stephen King, Grant, Fantasy, "The sixth book in The Dark Tower series, continuing the ka-tet's journey towards the tower."

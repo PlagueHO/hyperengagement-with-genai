@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fdcb86647fee13c4c94d32dee1ca434a40e07e4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d92a4b2020825794956c136f3bc5d402a40fb0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hyperpersonalisation-with-agents")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

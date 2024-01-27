@@ -7,11 +7,8 @@ namespace hyperpersonalisation_with_planner.plugins;
 internal sealed class CustomerPlugin
 {
     /// <summary>
-    /// Plugin to get the customers profile information
+    /// Plugins to get the customers profile information
     /// </summary>
-    /// <param name="emailAddress">The email address of the customer whose profile should be returned</param>
-    /// <param name="logger">The logger</param>
-    /// <returns>Current date and time in UTC format</returns>
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return their profile information including name, age, location and list of interests")]
     public string GetCustomerProfile(
         [Description("The email address of the customer whose profile should be returned.")] string emailAddress,
@@ -27,12 +24,6 @@ internal sealed class CustomerPlugin
             Interests (based on recent purchases and searches): DevOps, Horror Fiction, Fantasy, Software Development, Travel";
     }
 
-    /// <summary>
-    /// Plugin to get the customers recent purchases from Contoso Books
-    /// </summary>
-    /// <param name="emailAddress">The email address of the customer whose recent purchases should be returned</param>
-    /// <param name="logger">The logger</param>
-    /// <returns>Current date and time in UTC format</returns>
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing the customers recent purchases from Contoso Books")]
     public string GetCustomerRecentPurchases(
         [Description("The email address of the customer whose recent purchases should be returned.")] string emailAddress,
@@ -60,12 +51,6 @@ Book name, Author, Publisher, Topics, Description, Purchase date
 ";
     }
 
-    /// <summary>
-    /// Plugin to get the customers recent searches from Contoso Books
-    /// </summary>
-    /// <param name="emailAddress">The email address of the customer whose recent searches should be returned</param>
-    /// <param name="logger">The logger</param>
-    /// <returns>Current date and time in UTC format</returns>
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing the customers recent searches from Contoso Books")]
     public string GetCustomerRecentSearches(
         [Description("The email address of the customer whose recent searches should be returned.")] string emailAddress,
@@ -81,12 +66,6 @@ Date, Search
 ";
     }
 
-    /// <summary>
-    /// Plugin to get book recommendations for a customer of Contoso Books which will be based on interests, available books, recent purchases and recent searches
-    /// </summary>
-    /// <param name="emailAddress">The email address of the customer whose book recommendations</param>
-    /// <param name="logger">The logger</param>
-    /// <returns>Current date and time in UTC format</returns>
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing purchase recommendations from Contoso Books")]
     public string GetCustomerSuggestedBooks(
         [Description("The email address of the customer whose book recommendations should be returned.")] string emailAddress,
@@ -103,9 +82,26 @@ Book name, Author, Publisher, Topics, Description
 ""The Dark Tower: The Dark Tower"", Stephen King, Grant, Fantasy, ""The final book in The Dark Tower series, concludes Roland Deschain's journey.""
 ""The DevOps Handbook"", Gene Kim, IT Revolution Press, DevOps, ""A practical guide to implementing DevOps in the workplace.""
 ""The Outsider"", Stephen King, Scribner, Horror Fiction, ""A novel about the investigation into the gruesome murder of a local boy.""
-""Pet Sematary"", Stephen King, Doubleday, Horror Fiction, ""A chilling novel about a family burial ground with the power to raise the dead.""
+""Pet Cemetery"", Stephen King, Doubleday, Horror Fiction, ""A chilling novel about a family burial ground with the power to raise the dead.""
 ""The Institute"", Stephen King, Scribner, Horror Fiction, ""A gripping story about children with special talents who are abducted and taken to an institute.""
 ""The Accelerate: The Science of Lean Software and DevOps"", Nicole Forsgren, IT Revolution Press, DevOps, ""A book that presents research on the impact of DevOps on software delivery performance.""
+";
+    }
+
+    [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing a list of events related to favorite authors and interests")]
+    public string GetCustomerLocalEvents(
+    [Description("The email address of the customer who local events that could relate to authors or interests should be returned.")] string emailAddress,
+    [Description("The start date of the events to be returned.")] string startDate,
+    [Description("The last date of the events to be returned.")] string endDate,
+    ILogger? logger = null)
+    {
+        logger?.LogInformation("GetCustomerLocalEvents: returning the local events for {0} from {1} to {2}", emailAddress, startDate, endDate);
+
+        // In a real application this would be looked up using an API or database request
+        return @"
+Event, Date, Location, Details
+""Stephen King book tour"", 2024-03-04, ""Sydney"", ""Stephen King is doing a book tour talking about his latest book.""
+""DevOps Days Sydney"", 2024-06-25, ""Sydney"", ""DevOps Days conference is happening in Sydney.""
 ";
     }
 }

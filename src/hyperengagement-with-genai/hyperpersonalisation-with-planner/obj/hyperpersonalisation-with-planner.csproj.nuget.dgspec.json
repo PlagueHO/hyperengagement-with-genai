@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[8.0.0, )"
             },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.SemanticKernel": {
               "target": "Package",
               "version": "[1.2.0, )"

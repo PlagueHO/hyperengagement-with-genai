@@ -1,9 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
-using Microsoft.SemanticKernel.Planners;
-using hyperpersonalisation_with_planner.plugins;
-
 using Microsoft.SemanticKernel.Planning;
+using hyperpersonalisation_with_planner.plugins;
 
 namespace hyperpersonalisation_with_planner;
 
@@ -77,7 +76,8 @@ You will not include any audio or host queues in the podcast, it should be a con
         // Execute the Stepwise Planner
         FunctionCallingStepwisePlannerResult stepwisePlannerResult = await stepwisePlanner.ExecuteAsync(kernel, promptTemplate);
 
-        Console.WriteLine("Script: {0}", stepwisePlannerResult.FinalAnswer);
+        Console.WriteLine("======== Completed Podcast Script ========");
+        Console.WriteLine(stepwisePlannerResult.FinalAnswer);
     }
 
     /// <summary>
@@ -85,11 +85,18 @@ You will not include any audio or host queues in the podcast, it should be a con
     /// </summary>
     private static IConfiguration appConfiguration = null!;
 
+    public static ILoggerFactory loggerFactory { get; private set; }
+
+    public static ILogger logger { get; private set; }
+
     private static void LoadConfiguration()
     {
         IConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json")
             .AddUserSecrets<Program>();
         appConfiguration = configurationBuilder.Build();
+
+        using ILoggerFactory loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+        ILogger logger = loggerFactory.CreateLogger("Program");
     }
 }

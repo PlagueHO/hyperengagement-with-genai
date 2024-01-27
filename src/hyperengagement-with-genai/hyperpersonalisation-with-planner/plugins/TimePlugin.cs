@@ -16,7 +16,7 @@ internal sealed class TimePlugin
         ILogger? logger = null)
     {
         var currentTime = DateTime.UtcNow.ToString("R");
-        logger?.LogInformation("GetCurrentUtcTime: Current date and time returned is {0}", currentTime);
+        Console.WriteLine("GetCurrentUtcTime: Current date and time returned is {0}", currentTime);
         
         return currentTime;
     }

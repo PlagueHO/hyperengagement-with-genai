@@ -14,7 +14,7 @@ internal sealed class CustomerPlugin
         [Description("The email address of the customer whose profile should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        logger?.LogInformation("GetCustomerProfile: returning the customer profile for {0}", emailAddress);
+        Console.WriteLine("GetCustomerProfile: returning the customer profile for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -29,7 +29,7 @@ internal sealed class CustomerPlugin
         [Description("The email address of the customer whose recent purchases should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        logger?.LogInformation("GetCustomerRecentPurchases: returning the customer recent purchases for {0}", emailAddress);
+        Console.WriteLine("GetCustomerRecentPurchases: returning the customer recent purchases for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -56,7 +56,7 @@ Book name, Author, Publisher, Topics, Description, Purchase date
         [Description("The email address of the customer whose recent searches should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        logger?.LogInformation("GetCustomerRecentSearches: returning the customer recent searches for {0}", emailAddress);
+        Console.WriteLine("GetCustomerRecentSearches: returning the customer recent searches for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -71,7 +71,7 @@ Date, Search
         [Description("The email address of the customer whose book recommendations should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        logger?.LogInformation("GetCustomerSuggestedBooks: returning the book recommendations for {0}", emailAddress);
+        Console.WriteLine("GetCustomerSuggestedBooks: returning the book recommendations for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -95,7 +95,7 @@ Book name, Author, Publisher, Topics, Description
     [Description("The last date of the events to be returned.")] string endDate,
     ILogger? logger = null)
     {
-        logger?.LogInformation("GetCustomerLocalEvents: returning the local events for {0} from {1} to {2}", emailAddress, startDate, endDate);
+        Console.WriteLine("GetCustomerLocalEvents: returning the local events for {0} from {1} to {2}", emailAddress, startDate, endDate);
 
         // In a real application this would be looked up using an API or database request
         return @"

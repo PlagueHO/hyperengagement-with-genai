@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\timeplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\plugins\\timeplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\profileplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\plugins\\profileplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|c:\\users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB74373A-7DE5-422A-9C75-6FCA1F0BA14D}|hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj|solutionrelative:hyperpersonalisation-with-planner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,32 +46,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "TimePlugin.cs",
+              "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\TimePlugin.cs",
+              "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\plugins\\TimePlugin.cs",
+              "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\TimePlugin.cs",
+              "RelativeToolTip": "hyperpersonalisation-with-planner\\plugins\\TimePlugin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-27T22:18:56.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
               "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\Program.cs",
               "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\Program.cs",
               "RelativeToolTip": "hyperpersonalisation-with-planner\\Program.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDIAAAAtAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACcAAAChAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-01-26T03:41:29.625Z"
+              "WhenOpened": "2024-01-26T03:41:29.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProfilePlugin.cs",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\ProfilePlugin.cs",
               "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\plugins\\ProfilePlugin.cs",
               "ToolTip": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\plugins\\ProfilePlugin.cs",
               "RelativeToolTip": "hyperpersonalisation-with-planner\\plugins\\ProfilePlugin.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGcAAABiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-01-27T03:30:37.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\appsettings.json",
               "RelativeDocumentMoniker": "hyperpersonalisation-with-planner\\appsettings.json",
@@ -79,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "create-test-data.txt",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\create-test-data.txt",
               "RelativeDocumentMoniker": "create-test-data.txt",
@@ -92,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "contoso-books-podcast.txt",
               "DocumentMoniker": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\prompts\\contoso-books-podcast.txt",
               "RelativeDocumentMoniker": "prompts\\contoso-books-podcast.txt",

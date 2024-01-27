@@ -10,16 +10,15 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
-          "Microsoft.Extensions.Configuration.UserSecrets": "6.0.1",
+          "Microsoft.Extensions.Configuration.UserSecrets": "8.0.0",
           "Microsoft.SemanticKernel": "1.2.0",
           "Microsoft.SemanticKernel.Abstractions": "1.2.0",
           "Microsoft.SemanticKernel.Connectors.OpenAI": "1.2.0",
-          "Microsoft.SemanticKernel.Experimental.Agents": "1.1.0-alpha",
+          "Microsoft.SemanticKernel.Experimental.Agents": "1.2.0-alpha",
           "Microsoft.SemanticKernel.Experimental.Assistants": "1.0.0-rc4",
           "Microsoft.SemanticKernel.Planners.Core": "1.0.0-beta8",
           "Microsoft.SemanticKernel.Planners.Handlebars": "1.2.0-preview",
-          "Microsoft.SemanticKernel.Planners.OpenAI": "1.2.0-preview",
-          "Microsoft.SemanticKernel.Plugins.Core": "1.2.0-alpha"
+          "Microsoft.SemanticKernel.Planners.OpenAI": "1.2.0-preview"
         },
         "runtime": {
           "hyperpersonalisation-with-planner.dll": {}
@@ -167,14 +166,6 @@
           }
         }
       },
-      "Microsoft.Bcl.TimeProvider/8.0.0": {
-        "runtime": {
-          "lib/net8.0/Microsoft.Bcl.TimeProvider.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
       "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
@@ -229,7 +220,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.UserSecrets/6.0.1": {
+      "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.Configuration.Json": "8.0.0",
@@ -237,9 +228,9 @@
           "Microsoft.Extensions.FileProviders.Physical": "8.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
-            "assemblyVersion": "6.0.0.0",
-            "fileVersion": "6.0.222.6406"
+          "lib/net8.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
@@ -366,7 +357,7 @@
           }
         }
       },
-      "Microsoft.SemanticKernel.Experimental.Agents/1.1.0-alpha": {
+      "Microsoft.SemanticKernel.Experimental.Agents/1.2.0-alpha": {
         "dependencies": {
           "Microsoft.SemanticKernel.Connectors.OpenAI": "1.2.0",
           "Microsoft.SemanticKernel.Core": "1.2.0",
@@ -376,8 +367,8 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SemanticKernel.Experimental.Agents.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
           }
         }
       },
@@ -432,18 +423,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.SemanticKernel.Planners.OpenAI.dll": {
-            "assemblyVersion": "1.2.0.0",
-            "fileVersion": "1.2.0.0"
-          }
-        }
-      },
-      "Microsoft.SemanticKernel.Plugins.Core/1.2.0-alpha": {
-        "dependencies": {
-          "Microsoft.Bcl.TimeProvider": "8.0.0",
-          "Microsoft.SemanticKernel.Core": "1.2.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Microsoft.SemanticKernel.Plugins.Core.dll": {
             "assemblyVersion": "1.2.0.0",
             "fileVersion": "1.2.0.0"
           }
@@ -632,13 +611,6 @@
       "path": "microsoft.bcl.hashcode/1.1.0",
       "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
     },
-    "Microsoft.Bcl.TimeProvider/8.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-f5Kr5JepAbiGo7uDmhgvMqhntwxqXNn6/IpTBSSI4cuHhgnJGrLxFRhMjVpRkLPp6zJXO0/G0l3j9p9zSJxa+w==",
-      "path": "microsoft.bcl.timeprovider/8.0.0",
-      "hashPath": "microsoft.bcl.timeprovider.8.0.0.nupkg.sha512"
-    },
     "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -674,12 +646,12 @@
       "path": "microsoft.extensions.configuration.json/8.0.0",
       "hashPath": "microsoft.extensions.configuration.json.8.0.0.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.UserSecrets/6.0.1": {
+    "Microsoft.Extensions.Configuration.UserSecrets/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Fy8yr4V6obi7ZxvKYI1i85jqtwMq8tqyxQVZpRSkgeA8enqy/KvBIMdcuNdznlxQMZa72mvbHqb7vbg4Pyx95w==",
-      "path": "microsoft.extensions.configuration.usersecrets/6.0.1",
-      "hashPath": "microsoft.extensions.configuration.usersecrets.6.0.1.nupkg.sha512"
+      "sha512": "sha512-ihDHu2dJYQird9pl2CbdwuNDfvCZdOS0S7SPlNfhPt0B81UTT+yyZKz2pimFZGUp3AfuBRnqUCxB2SjsZKHVUw==",
+      "path": "microsoft.extensions.configuration.usersecrets/8.0.0",
+      "hashPath": "microsoft.extensions.configuration.usersecrets.8.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/8.0.0": {
       "type": "package",
@@ -758,12 +730,12 @@
       "path": "microsoft.semantickernel.core/1.2.0",
       "hashPath": "microsoft.semantickernel.core.1.2.0.nupkg.sha512"
     },
-    "Microsoft.SemanticKernel.Experimental.Agents/1.1.0-alpha": {
+    "Microsoft.SemanticKernel.Experimental.Agents/1.2.0-alpha": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+Q2YLYsGGIG4jtS3oh/IMBHuJLSyyGSEOwqqLaMUWlpKLibnxY4lklvJ6zSJYJx76WjEywGhMAfkGaKFQjXpsA==",
-      "path": "microsoft.semantickernel.experimental.agents/1.1.0-alpha",
-      "hashPath": "microsoft.semantickernel.experimental.agents.1.1.0-alpha.nupkg.sha512"
+      "sha512": "sha512-NLsZvDQMJ5wMO4uXEYVi49p7IeES/CDv0zOZHC7wehKBmTEnsKWH7ClPREN65XJonS9DJinU/pnKK2dpnBcapg==",
+      "path": "microsoft.semantickernel.experimental.agents/1.2.0-alpha",
+      "hashPath": "microsoft.semantickernel.experimental.agents.1.2.0-alpha.nupkg.sha512"
     },
     "Microsoft.SemanticKernel.Experimental.Assistants/1.0.0-rc4": {
       "type": "package",
@@ -792,13 +764,6 @@
       "sha512": "sha512-bxpHnLOb7GtnbmDe0KB1Uudh8x9Rxwf7yUVZaKyM4HqEtu3NfDg6MpqSXajxf9blqW7aLE/fcI6k7SAxi3hCmw==",
       "path": "microsoft.semantickernel.planners.openai/1.2.0-preview",
       "hashPath": "microsoft.semantickernel.planners.openai.1.2.0-preview.nupkg.sha512"
-    },
-    "Microsoft.SemanticKernel.Plugins.Core/1.2.0-alpha": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aja54tCAJ2/T4EyMTVJiUXfbXriYAmEFx8tzaZa28iXKyUTCsSeq1GA74aTqIqjBx81AfKPXlG1Tg4QU0UWnBw==",
-      "path": "microsoft.semantickernel.plugins.core/1.2.0-alpha",
-      "hashPath": "microsoft.semantickernel.plugins.core.1.2.0-alpha.nupkg.sha512"
     },
     "Microsoft.SemanticKernel.PromptTemplates.Handlebars/1.2.0": {
       "type": "package",

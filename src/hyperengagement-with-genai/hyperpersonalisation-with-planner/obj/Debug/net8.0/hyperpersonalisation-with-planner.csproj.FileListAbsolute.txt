@@ -16,7 +16,6 @@ C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hypereng
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\JsonSchema.Net.Generation.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Bcl.HashCode.dll
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
@@ -38,7 +37,6 @@ C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hypereng
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.Planners.Core.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.Planners.Handlebars.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.Planners.OpenAI.dll
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.Plugins.Core.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.PromptTemplates.Handlebars.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.TemplateEngine.Basic.dll
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\Microsoft.SemanticKernel.Yaml.dll
@@ -58,3 +56,4 @@ C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hypereng
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\obj\Debug\net8.0\hyperpersonalisation-with-planner.pdb
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\obj\Debug\net8.0\hyperpersonalisation-with-planner.genruntimeconfig.cache
 C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\obj\Debug\net8.0\ref\hyperpersonalisation-with-planner.dll
+C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-planner\bin\Debug\net8.0\appsettings.json

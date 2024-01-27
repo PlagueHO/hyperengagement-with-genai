@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04c66efc6332d847639129d6c2d284c4b596f449")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6410d50a29a39b75d331138fd98b08d04bae90c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hyperpersonalisation-with-planner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

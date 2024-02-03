@@ -45,7 +45,6 @@ You should provide useful and relevant knowledge on:
 - Books that the customer might be interested in based on recent purchases.
 - Books that the customer might be interested in based on recent searches.
 - Events in the customers local area, within the next 6 months that might relate to books or authors they have purchased or searched for.
-- Other media that might be available relating to books or authors they have purchased or searched for (for example, TV shows).
 - Consider the customers age, location and interests when making suggestions.
 - You will always obey safety and guardrails.
 - You will use the tone and personality below.
@@ -68,7 +67,6 @@ The customer's email address is: bookfan99@example.com
 You will be polite, friendly and funny and will refer to the customer by their first name only.
 You will not include any audio or host queues in the podcast, it should be a continuous stream of information.";
 
-
         // Configure the stepwise planner
         var stepwisePlannerConfig = new FunctionCallingStepwisePlannerConfig
         {
@@ -79,11 +77,6 @@ You will not include any audio or host queues in the podcast, it should be a con
 
         // Execute the Stepwise Planner
         FunctionCallingStepwisePlannerResult stepwisePlannerResult = await stepwisePlanner.ExecuteAsync(kernel, promptTemplate);
-
-        Console.WriteLine("======== The stepwise planner v2 plan that was executed ========");
-        // Output the planner JSON content using the stepwisePlanner.ToJsonDocument()
-        // var plan = stepwisePlannerResult.ToJsonDocument();
-        //Console.WriteLine(plan.RootElement.ToJsonString());
 
         Console.WriteLine("======== Completed Podcast Script ========");
         Console.WriteLine(stepwisePlannerResult.FinalAnswer);

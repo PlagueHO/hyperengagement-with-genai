@@ -1,6 +1,0 @@
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.csproj.AssemblyReference.cache
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.AssemblyInfoInputs.cache
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.AssemblyInfo.cs
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.csproj.CoreCompileInputs.cache
-C:\Users\dascottr\source\github\plagueho\hyperengagement-with-genai\src\hyperengagement-with-genai\hyperpersonalisation-with-agents\obj\Debug\net8.0\hyperpersonalisation-with-agents.sourcelink.json

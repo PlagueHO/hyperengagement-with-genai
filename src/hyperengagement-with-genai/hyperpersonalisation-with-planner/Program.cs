@@ -82,8 +82,8 @@ You will not include any audio or host queues in the podcast, it should be a con
 
         Console.WriteLine("======== The stepwise planner v2 plan that was executed ========");
         // Output the planner JSON content using the stepwisePlanner.ToJsonDocument()
-        var plan = stepwisePlannerResult.ToJsonDocument();
-        Console.WriteLine(plan.RootElement.ToJsonString());
+        // var plan = stepwisePlannerResult.ToJsonDocument();
+        //Console.WriteLine(plan.RootElement.ToJsonString());
 
         Console.WriteLine("======== Completed Podcast Script ========");
         Console.WriteLine(stepwisePlannerResult.FinalAnswer);

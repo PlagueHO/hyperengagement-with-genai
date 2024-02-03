@@ -24,6 +24,8 @@ internal sealed class CustomerPlugin
             Interests (based on recent purchases and searches): DevOps, Horror Fiction, Fantasy, Software Development, Travel";
     }
 
+
+
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing the customers recent purchases from Contoso Books")]
     public string GetCustomerRecentPurchases(
         [Description("The email address of the customer whose recent purchases should be returned.")] string emailAddress,
@@ -51,6 +53,9 @@ Book name, Author, Publisher, Topics, Description, Purchase date
 ";
     }
 
+
+
+
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing the customers recent searches from Contoso Books")]
     public string GetCustomerRecentSearches(
         [Description("The email address of the customer whose recent searches should be returned.")] string emailAddress,
@@ -65,6 +70,8 @@ Date, Search
 2023-12-01, ""Vegetarian Itialian Recipes""
 ";
     }
+
+
 
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing purchase recommendations from Contoso Books")]
     public string GetCustomerSuggestedBooks(
@@ -87,6 +94,8 @@ Book name, Author, Publisher, Topics, Description
 ""The Accelerate: The Science of Lean Software and DevOps"", Nicole Forsgren, IT Revolution Press, DevOps, ""A book that presents research on the impact of DevOps on software delivery performance.""
 ";
     }
+
+
 
     [KernelFunction, Description("Given the Contoso books customer e-mail address, return a CSV containing a list of events related to favorite authors and interests")]
     public string GetCustomerLocalEvents(

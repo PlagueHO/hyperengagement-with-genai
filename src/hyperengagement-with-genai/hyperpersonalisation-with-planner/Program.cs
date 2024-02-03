@@ -3,6 +3,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Planning;
 using hyperpersonalisation_with_planner.plugins;
+using Json.More;
+using System.Text.Json;
 
 namespace hyperpersonalisation_with_planner;
 
@@ -28,7 +30,7 @@ class Program
                 deploymentName: appConfiguration["AzureOpenAi:DeploymentName"])
             .Build();
 
-        // Add plugins to the kernel
+        // Add plugins (and agents) to the kernel
         kernel.ImportPluginFromType<TimePlugin>();
         kernel.ImportPluginFromType<CustomerPlugin>();
 
@@ -78,9 +80,19 @@ You will not include any audio or host queues in the podcast, it should be a con
         // Execute the Stepwise Planner
         FunctionCallingStepwisePlannerResult stepwisePlannerResult = await stepwisePlanner.ExecuteAsync(kernel, promptTemplate);
 
+        Console.WriteLine("======== The stepwise planner v2 plan that was executed ========");
+        // Output the planner JSON content using the stepwisePlanner.ToJsonDocument()
+        var plan = stepwisePlannerResult.ToJsonDocument();
+        Console.WriteLine(plan.RootElement.ToJsonString());
+
         Console.WriteLine("======== Completed Podcast Script ========");
         Console.WriteLine(stepwisePlannerResult.FinalAnswer);
     }
+
+
+
+
+
 
     /// <summary>
     /// Application Configuration

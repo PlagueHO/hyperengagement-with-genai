@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Microsoft.SemanticKernel.Experimental.Agents;
 
 namespace hyperpersonalisation_with_agents;
@@ -120,12 +121,23 @@ internal class Program
         return agent;
     }
 
-    IConfiguration appConfiguration = null!;
+    /// <summary>
+    /// Application Configuration
+    /// </summary>
+    private static IConfiguration appConfiguration = null!;
 
-    private void LoadConfiguration()
+    public static ILoggerFactory loggerFactory { get; private set; }
+
+    public static ILogger logger { get; private set; }
+
+    private static void LoadConfiguration()
     {
         IConfigurationBuilder configurationBuilder = new ConfigurationBuilder()
-            .AddJsonFile("appsettings.json", true);
+            .AddJsonFile("appsettings.json")
+            .AddUserSecrets<Program>();
         appConfiguration = configurationBuilder.Build();
+
+        using ILoggerFactory loggerFactory = LoggerFactory.Create(builder => builder.AddConsole());
+        ILogger logger = loggerFactory.CreateLogger("Program");
     }
 }

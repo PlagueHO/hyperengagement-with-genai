@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "An7DmBVh1IIGbgv4huAx8ukg2vhLohcWEKZEBjRvC1huRkmgPXUPfgs/wQdFEaoiRR+hVWNN4KBqdhNoxsaQKA==",
+  "dgSpecHash": "5uUqSGLRnW4aHyjh+CG8SDs0Z8bemlpaeeeUDmCuT8uLtWJkyF6UjoluTegx+f19oGY2boBl2CWN91GAgoDhnA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dascottr\\source\\github\\plagueho\\hyperengagement-with-genai\\src\\hyperengagement-with-genai\\hyperpersonalisation-with-planner\\hyperpersonalisation-with-planner.csproj",
   "expectedPackageFiles": [
@@ -45,10 +45,10 @@
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel\\1.2.0\\microsoft.semantickernel.1.2.0.nupkg.sha512",
-    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.2.0\\microsoft.semantickernel.abstractions.1.2.0.nupkg.sha512",
-    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.2.0\\microsoft.semantickernel.connectors.openai.1.2.0.nupkg.sha512",
-    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.core\\1.2.0\\microsoft.semantickernel.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel\\1.3.0\\microsoft.semantickernel.1.3.0.nupkg.sha512",
+    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.3.0\\microsoft.semantickernel.abstractions.1.3.0.nupkg.sha512",
+    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.3.0\\microsoft.semantickernel.connectors.openai.1.3.0.nupkg.sha512",
+    "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.core\\1.3.0\\microsoft.semantickernel.core.1.3.0.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.experimental.agents\\1.2.0-alpha\\microsoft.semantickernel.experimental.agents.1.2.0-alpha.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.experimental.assistants\\1.0.0-rc4\\microsoft.semantickernel.experimental.assistants.1.0.0-rc4.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\microsoft.semantickernel.planners.core\\1.0.0-beta8\\microsoft.semantickernel.planners.core.1.0.0-beta8.nupkg.sha512",
@@ -64,7 +64,7 @@
     "C:\\Users\\dascottr\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\dascottr\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\dascottr\\.nuget\\packages\\system.text.json\\8.0.1\\system.text.json.8.0.1.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\dascottr\\.nuget\\packages\\yamldotnet\\13.7.1\\yamldotnet.13.7.1.nupkg.sha512"
   ],

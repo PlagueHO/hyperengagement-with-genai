@@ -70,7 +70,7 @@ You will not include any audio or host queues in the podcast, it should be a con
         // Configure the stepwise planner
         var stepwisePlannerConfig = new FunctionCallingStepwisePlannerConfig
         {
-            MaxIterations = 15,
+            MaxIterations = 5,
             MaxTokens = 4000
         };
         var stepwisePlanner = new FunctionCallingStepwisePlanner(stepwisePlannerConfig);

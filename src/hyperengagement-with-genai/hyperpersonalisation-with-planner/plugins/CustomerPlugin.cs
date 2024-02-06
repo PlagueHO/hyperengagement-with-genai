@@ -14,7 +14,7 @@ internal sealed class CustomerPlugin
         [Description("The email address of the customer whose profile should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        Console.WriteLine("GetCustomerProfile: returning the customer profile for {0}", emailAddress);
+        Console.WriteLine("Planner Called GetCustomerProfile: returning the customer profile for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -56,7 +56,7 @@ internal sealed class CustomerPlugin
         [Description("The email address of the customer whose book recommendations should be returned.")] string emailAddress,
         ILogger? logger = null)
     {
-        Console.WriteLine("GetCustomerSuggestedBooks: returning the book recommendations for {0}", emailAddress);
+        Console.WriteLine("Planner Called GetCustomerSuggestedBooks: returning the book recommendations for {0}", emailAddress);
 
         // In a real application this would be looked up using an API or database request
         return @"
@@ -82,7 +82,7 @@ Book name, Author, Publisher, Topics, Description
     [Description("The last date of the events to be returned.")] string endDate,
     ILogger? logger = null)
     {
-        Console.WriteLine("GetCustomerLocalEvents: returning the local events for {0} from {1} to {2}", emailAddress, startDate, endDate);
+        Console.WriteLine("Planner Called GetCustomerLocalEvents: returning the local events for {0} from {1} to {2}", emailAddress, startDate, endDate);
 
         // In a real application this would be looked up using an API or database request
         return @"
